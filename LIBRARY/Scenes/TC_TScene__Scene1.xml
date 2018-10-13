@@ -1,0 +1,120 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5bc23198-00002555" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1539470214">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__Scene1">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion1">
+                  <matrix>
+                    <Matrix a="12.5115051269531" d="0.686004638671875" tx="390.15" ty="93.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.7" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion2">
+                  <matrix>
+                    <Matrix a="11.7418975830078" d="2.27384948730469" tx="550.4" ty="191.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.15" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion3">
+                  <matrix>
+                    <Matrix a="13.8775024414063" d="0.77545166015625" tx="327.9" ty="502.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.65" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButtonGroup__Groups" name="Sg1" selected="true">
+                  <matrix>
+                    <Matrix a="0.587738037109375" d="4.51109313964844" tx="459.2" ty="639.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="830.2" y="48.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans1" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="646.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans2" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="763"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans3" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="879.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans4" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="996.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject__ListMask" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__ListMask">
+                  <matrix>
+                    <Matrix tx="92.15" ty="191.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="867.5" y="146.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__QuestionMask">
+                  <matrix>
+                    <Matrix d="0.326034545898438" tx="92.15" ty="504.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="867.5" y="146"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" locked="true" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn" selected="true">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
