@@ -63,6 +63,10 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $queryFinished() {
+                let stateComplete = false;
+                return stateComplete;
+            }
+            $canGoBack() {
                 let stateComplete = true;
                 return stateComplete;
             }
@@ -71,6 +75,10 @@ var EFTut_Suppl;
                     this.enableNext(false);
                 else
                     this.enableNext(true);
+                if (!this.$canGoBack())
+                    this.enableBack(false);
+                else
+                    this.enableBack(true);
             }
         }
         EFMod_DedReason.$Common = $Common;

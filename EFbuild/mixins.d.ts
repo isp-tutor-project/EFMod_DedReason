@@ -53,6 +53,7 @@ declare namespace EFTut_Suppl.EFMod_DedReason {
         $cuePoints(id: string): void;
         $timedEvents(id: string): void;
         $queryFinished(): boolean;
+        $canGoBack(): boolean;
         $updateNav(): void;
     }
 }

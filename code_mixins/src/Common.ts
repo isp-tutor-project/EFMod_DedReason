@@ -73,6 +73,12 @@ namespace EFTut_Suppl.EFMod_DedReason {
 
         public $queryFinished() : boolean {             
 
+            let stateComplete:boolean = false;
+            return  stateComplete; 
+        }
+
+        public $canGoBack() : boolean {             
+
             let stateComplete:boolean = true;
             return  stateComplete; 
         }
@@ -85,6 +91,12 @@ namespace EFTut_Suppl.EFMod_DedReason {
                 this.enableNext(false);		
             else	
                 this.enableNext(true);		
+
+            if(!this.$canGoBack())
+                this.enableBack(false);		
+            else	
+                this.enableBack(true);		
+
 		}
     }   
 }
