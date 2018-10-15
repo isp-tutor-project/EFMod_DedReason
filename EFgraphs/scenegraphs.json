@@ -32,7 +32,7 @@
 	},
 	
 	
-	"SStart":
+	"SSceneStart":
 	{	
 		"COMMENT":"Today we're going to...",
 		"type":"animation",
@@ -494,6 +494,36 @@
     },
 
 	"SSubmit":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+		"volatile":true,
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"NOOP",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"actionname":"NOOP", "autostep":false, "features":""}
+                    ],                        
+					"edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+		}
+    },
+
+	"SSceneEnd":
 	{	
 		"COMMENT":"Today we're going to...",
 		"type":"animation",

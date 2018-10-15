@@ -1,7 +1,7 @@
 
 namespace EFTut_Suppl.EFMod_DedReason {
 
-    export class SStart {
+    export class SSceneEnd {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -109,10 +109,6 @@ namespace EFTut_Suppl.EFMod_DedReason {
         public $onAction(target:string) {         
             
             switch(target) {
-                
-                case "Sstart":
-                this.nextTrack("$onAction:"+this.graphState);
-                break;
             }
         }
 

@@ -207,10 +207,8 @@ var EFTut_Suppl;
             $cuePoints(trackID, cueID) {
                 switch (cueID) {
                     case "$start":
-                        console.log("executing CuePoint START");
                         break;
                     case "$end":
-                        console.log("executing CuePoint END");
                         break;
                 }
             }
@@ -908,7 +906,79 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_DedReason;
     (function (EFMod_DedReason) {
-        class SStart {
+        class SSceneEnd {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setNavMode(EFMod_DedReason.CONST.NAVNONE, EFMod_DedReason.CONST.NAVSCENE);
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $onExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let result = false;
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_DedReason.SSceneEnd = SSceneEnd;
+    })(EFMod_DedReason = EFTut_Suppl.EFMod_DedReason || (EFTut_Suppl.EFMod_DedReason = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_DedReason;
+    (function (EFMod_DedReason) {
+        class SSceneStart {
             $preCreateScene() {
             }
             $onCreateScene() {
@@ -976,7 +1046,7 @@ var EFTut_Suppl;
                 }
             }
         }
-        EFMod_DedReason.SStart = SStart;
+        EFMod_DedReason.SSceneStart = SSceneStart;
     })(EFMod_DedReason = EFTut_Suppl.EFMod_DedReason || (EFTut_Suppl.EFMod_DedReason = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;

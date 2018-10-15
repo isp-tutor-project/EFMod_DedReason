@@ -3,7 +3,7 @@
     "_ONTOLOGY": {        
         "DEDR": {
             "INTRO": {
-                "part1":"You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back and change your selections prior to submitting your final answers.",
+                "part1":"You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back at any point and change your selections prior to submitting your final answers.",
 
                 "1":"<b>DIRECTIONS:</b><br><br>You will be shown a series of statements,<br>check the box corresponding to the option that - <b>MUST</b> - be true<br>according to the given information."
             },

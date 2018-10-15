@@ -11,9 +11,9 @@
 							"templateVar": "$EFO_DEDR_INTRO|part1",
 							"DEDRINTROpart1": {
 								"fileid": "0a",
-								"SSML": "You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back and change your selections prior to submitting your final answers.",
+								"SSML": "You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back at any point and change your selections prior to submitting your final answers.",
 								"cues": [],
-								"duration": 11962.25,
+								"duration": 13051.458333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22,7 +22,7 @@
 					"timedSet": [],
 					"templates": {
 						"$EFO_DEDR_INTRO|part1": {
-							"DEDRINTROpart1": "You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back and change your selections prior to submitting your final answers."
+							"DEDRINTROpart1": "You will be shown a series of nine different statements, check the box corresponding to the option that must be true according to the given information. You may come back at any point and change your selections prior to submitting your final answers."
 						}
 					},
 					"trim": [

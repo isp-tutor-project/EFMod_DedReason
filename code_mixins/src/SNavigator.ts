@@ -16,7 +16,7 @@ namespace EFTut_Suppl.EFMod_DedReason {
         
         public $preCreateScene() {
             
-            // Next button only - navigate scene tracks
+            // By default disable all Navigation - Let scenes decide
             // 
             this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
@@ -76,10 +76,8 @@ namespace EFTut_Suppl.EFMod_DedReason {
             switch(cueID) {
                 
                 case "$start":
-                    console.log("executing CuePoint START");
                     break;
                 case "$end":
-                    console.log("executing CuePoint END");
                     break;
             }
         }
