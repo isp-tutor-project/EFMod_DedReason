@@ -275,9 +275,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -351,9 +355,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -427,9 +435,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -503,9 +515,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -579,9 +595,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -655,9 +675,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -731,9 +755,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -807,9 +835,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -883,9 +915,13 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));

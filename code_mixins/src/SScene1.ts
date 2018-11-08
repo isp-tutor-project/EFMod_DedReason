@@ -108,9 +108,14 @@ namespace EFTut_Suppl.EFMod_DedReason {
 
         public $onAction(target:string) {         
             
-            switch(target) {
+            let group:string  = target.slice(0,3);
+            let button:string = target.slice(3);
+
+            switch(group) {
                 case "Sg1":
-                    this.setSceneValue(target, "true");
+                    this.setSceneValue(group, "true");
+                    if(button.length)
+                        this.setSceneValue("selection:" + group, button);
                     break;
             }
 
