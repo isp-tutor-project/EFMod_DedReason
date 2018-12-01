@@ -176,7 +176,6 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_DedReason.CONST.NAVNONE, EFMod_DedReason.CONST.NAVSCENE);
-                this.addFeature(EFMod_DedReason.CONST.FTR_DEV);
             }
             $onEnterScene() {
             }
@@ -281,7 +280,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR1:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -361,7 +360,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR2:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -441,7 +440,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR3:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -521,7 +520,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR4:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -601,7 +600,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR5:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -681,7 +680,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR6:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -761,7 +760,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR7:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -841,7 +840,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR8:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));
@@ -921,7 +920,7 @@ var EFTut_Suppl;
                     case "Sg1":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("DR9:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1"]));

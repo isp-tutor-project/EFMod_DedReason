@@ -4,7 +4,7 @@
     "SScene9": {
         "Sg1": {
             "grpData": {
-                "members":["Sans1","Sans2","Sans3","Sans4"]
+                "members":["Sg1ans1","Sg1ans2","Sg1ans3","Sg1ans4"]
             }            
         },
         "Squestion1": {
@@ -29,25 +29,25 @@
             "fontSize":32
         },
 
-        "Sans1": {
+        "Sg1ans1": {
             "btnData": {
                 "label":"{{$EFO_DEDR_ANS9|1}}",
                 "type":"radio"
             }
         },
-        "Sans2": {
+        "Sg1ans2": {
             "btnData": {
                 "label":"{{$EFO_DEDR_ANS9|2}}",
                 "type":"radio"
             }
         },
-        "Sans3": {
+        "Sg1ans3": {
             "btnData": {
                 "label":"{{$EFO_DEDR_ANS9|3}}",
                 "type":"radio"
             }
         },
-        "Sans4": {
+        "Sg1ans4": {
             "btnData": {
                 "label":"{{$EFO_DEDR_ANS9|4}}",
                 "type":"radio"

@@ -19,7 +19,7 @@
 		"DEDR": {
 			"INTRO": {
 				"1": "<b>DIRECTIONS:</b><br><br>You will be shown a series of statements,<br>check the box corresponding to the option that - <b>MUST</b> - be true<br>according to the given information.",
-				"part1": "You will be shown a series of four different statements, check the box corresponding to the option that must be true according to the given information. You may come back at any point and change your selections prior to submitting your final answers."
+				"part1": "Now you will be shown a series of four different statements, check the box corresponding to the option that must be true according to the given information. You may come back at any point and change your selections prior to submitting your final answers."
 			},
 			"Q1": {
 				"1": "1: Based on only the following information...",
@@ -135,10 +135,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -163,25 +163,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS1|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS1|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS1|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS1|4}}",
 				"type": "radio"
@@ -192,10 +192,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -220,25 +220,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS2|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS2|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS2|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS2|4}}",
 				"type": "radio"
@@ -249,10 +249,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -277,25 +277,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS3|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS3|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS3|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS3|4}}",
 				"type": "radio"
@@ -306,10 +306,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -334,25 +334,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS4|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS4|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS4|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS4|4}}",
 				"type": "radio"
@@ -363,10 +363,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -391,25 +391,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS5|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS5|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS5|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS5|4}}",
 				"type": "radio"
@@ -420,10 +420,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -448,25 +448,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS6|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS6|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS6|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS6|4}}",
 				"type": "radio"
@@ -477,10 +477,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -505,25 +505,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS7|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS7|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS7|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS7|4}}",
 				"type": "radio"
@@ -534,10 +534,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -562,25 +562,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS8|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS8|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS8|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS8|4}}",
 				"type": "radio"
@@ -591,10 +591,10 @@
 		"Sg1": {
 			"grpData": {
 				"members": [
-					"Sans1",
-					"Sans2",
-					"Sans3",
-					"Sans4"
+					"Sg1ans1",
+					"Sg1ans2",
+					"Sg1ans3",
+					"Sg1ans4"
 				]
 			}
 		},
@@ -619,25 +619,25 @@
 			},
 			"fontSize": 32
 		},
-		"Sans1": {
+		"Sg1ans1": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS9|1}}",
 				"type": "radio"
 			}
 		},
-		"Sans2": {
+		"Sg1ans2": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS9|2}}",
 				"type": "radio"
 			}
 		},
-		"Sans3": {
+		"Sg1ans3": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS9|3}}",
 				"type": "radio"
 			}
 		},
-		"Sans4": {
+		"Sg1ans4": {
 			"btnData": {
 				"label": "{{$EFO_DEDR_ANS9|4}}",
 				"type": "radio"

@@ -115,7 +115,7 @@ namespace EFTut_Suppl.EFMod_DedReason {
                 case "Sg1":
                     this.setSceneValue(group, "true");
                     if(button.length)
-                        this.setSceneValue("selection:" + group, button);
+                        this.setSceneValue("DR1:" + group, button);
                     break;
             }
 

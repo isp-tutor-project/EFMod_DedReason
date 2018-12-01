@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5bc23198-00002555" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1539470214">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5bc23198-00002555" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1543497944">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -33,7 +33,7 @@
                     <Point x="50.65" y="50.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TButtonGroup__Groups" name="Sg1" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButtonGroup__Groups" name="Sg1">
                   <matrix>
                     <Matrix a="0.587738037109375" d="4.51109313964844" tx="459.2" ty="639.65"/>
                   </matrix>
@@ -41,7 +41,7 @@
                     <Point x="830.2" y="48.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans1" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1ans1" selected="true" symbolType="button">
                   <matrix>
                     <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="646.45"/>
                   </matrix>
@@ -49,7 +49,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans2" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1ans2" symbolType="button">
                   <matrix>
                     <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="763"/>
                   </matrix>
@@ -57,7 +57,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans3" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1ans3" symbolType="button">
                   <matrix>
                     <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="879.55"/>
                   </matrix>
@@ -65,7 +65,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sans4" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1ans4" symbolType="button">
                   <matrix>
                     <Matrix a="0.4151611328125" d="0.4151611328125" tx="527.15" ty="996.1"/>
                   </matrix>
